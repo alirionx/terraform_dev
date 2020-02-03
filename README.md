@@ -33,9 +33,15 @@ Build a dashboard for e.g. performance of business processes ("BI").
 
 Management of inventory items.
 
-## Workflow
+## Repository structure
+
+This repository is structured as a mono repo that contains the different parts of the infrastructure for our virtual company.
+
+If you want to create a new part of the infrastructure, place it in a well named subfolder of the projects directory.
+
+The following workflow should be followed:
 
 1. All infrastructure is created with terraform
 2. All server configuration is done via ansible (?)
-3. All documentation is done in markdown and with draw.io diagrams
+3. All documentation is done in markdown and with draw.io diagrams (save them both as .drawio and .svg)
 
